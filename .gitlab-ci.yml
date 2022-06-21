@@ -1,5 +1,5 @@
 build:
-  image: klakegg/hugo:ext
+  image: klakegg/hugo:ext-ci
   script:
     - |
       hugo
