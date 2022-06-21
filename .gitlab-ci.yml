@@ -1,5 +1,4 @@
-build:
-  image: klakegg/hugo:ext-ci
-  script:
-    - |
-      hugo
+include:
+  - project: git-srv/pipelines
+    ref: main
+    file: Docker.gitlab-ci.yml
