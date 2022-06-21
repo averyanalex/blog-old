@@ -1,0 +1,9 @@
+.hugo_build.lock
+
+/public
+/themes
+/resources
+
+assets/jsconfig.json
+
+.DS_Store
